@@ -1,0 +1,341 @@
+/*Couleur a utiliser:
+    
+    Vert tres clair: rgba(197,219,161,1)
+    Vert clair(logo) : rgba(133,188,47,1)
+    
+    Blanc: rgba(244,244,244,1)
+    Noir: rgba(27,27,27,1)
+    
+    Gris foncé: rgba(82,82,82,1)
+    Gris clair: rgba(112,112,112,1)
+       
+    */
+
+
+
+
+
+
+
+body
+{
+	margin-top: 0;
+	width: 1000px;
+	margin: 0 auto;
+    background-image:  url(Body.jpg);
+	background-size: 100%;
+    border-top-left-radius: 60px;
+    box-shadow: 0px 0px 140px 15px rgba(0,0,0,0.75);
+
+}
+
+
+
+/*------------- HEADER ---------------*/
+
+
+
+
+
+header
+{
+	background-image: url(Background.png);
+    left:  100px;
+	width: auto;
+	height: 462px;
+	overflow: hidden;
+    margin-top: 50px;
+    border-top-left-radius: 60px;
+    font-family: 'Roboto' !important;
+ 	font-style: normal;
+  	font-weight: 300;
+}
+
+header ul
+{
+	margin-top: 25px;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	display: flex;
+}
+
+
+header li
+{
+	list-style: none;
+	padding-bottom: 0;
+	height: 50px;
+}
+
+header li a.Button
+{
+	display: block;
+	height: 43px;
+	font-size: 2em;
+	padding-right: 20px;
+	padding-left: 20px;
+    padding-bottom:  0px;
+	text-decoration: none;
+	color: rgba(197,219,161,1);
+	font-family: 'Lato', serif;
+	font-size: 25px;	
+	padding-top: 7px;
+    
+}
+
+header li a:hover.Button
+{
+	display: block;
+	height: 43px;
+	font-size: 2em;
+	padding-right: 20px;
+	padding-left: 20px;
+    padding-bottom:  0px;
+	text-decoration: none;
+	color: rgba(133,188,47,1);
+	font-family: 'Lato', serif;
+	font-size: 25px;	
+	padding-top: 7px;
+    border-bottom: solid 5px rgba(133,188,47,1);
+}
+
+
+#Logo
+{
+	height: 3em;
+	vertical-align: bottom;
+    margin-right: 225px;
+}
+
+header #Don
+{
+   width: 200px;
+   margin: 50px;
+   margin-top:  175px;
+   float: left;
+}
+
+header #Don
+{
+    font-size: 35px;
+    color: rgba(133,188,47,1);
+    padding-top: 80px;
+    padding-right:  400px;
+}
+
+
+
+
+
+
+
+
+main 
+{
+    background-color: rgba(82,82,82,0.8);
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+main h2
+{
+    padding: 25px;
+	font-size: 50px;
+	margin-bottom: 70px;
+	margin-top: 0;
+	padding-left: 40px;
+	padding-top: 40px;
+	color: rgba(244,244,244,1);
+	border-bottom : 1px solid rgba(244,244,244,1);
+	width: 600px;
+}
+
+
+main .Actu
+{
+	background-color:rgba(244,244,244,1);
+	margin-top:50px;
+	margin-bottom:50px;
+	padding-top:0;
+	padding-bottom:0px;
+	margin-left:auto;
+    margin-right:  auto;
+	width: 800px;
+    height: 300px;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.75);
+}
+
+main .Actu a{
+    
+    text-decoration: none;
+}
+
+main .Actu .Photo 
+{
+	background-image:url(ImageActu01.jpg);
+	height: 300px;
+    width:  250px;
+	float:left;
+	display: flex;
+}
+
+main .Actu h1 
+{
+	color:black;
+	height:30px;
+	font-size:1.8em;
+	padding-bottom:20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    width:  480px;
+	display: flex;
+}
+
+main .Actu > p 
+{
+    color:black;
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-bottom:  0px;
+	font-size:1.05em;
+    width: 490px;
+    height:  180px;
+	display: flex;
+}
+
+main .Actu .Social {
+
+    position:  relative;
+    right:  10px;
+    bottom:  70px;
+    display:  inline;
+    float:  right;
+}
+
+main .Actu .Social img {
+
+    width:  35px;
+}
+
+main .Actu .Social p {
+
+    font-size:  20px;
+    color: rgba(82,82,82,1);
+    margin-right:  50px;
+    display:  inline;
+}
+
+#ChangementPage 
+{
+    color:rgba(244,244,244,1);
+    padding-left: 600px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+#ChangementPage h1
+{
+    color:rgba(244,244,244,1);
+    display:  inline;
+    font-size: 25px;
+    padding:  0;
+}
+
+main #ChangementPage a
+{
+    text-decoration:  none;
+    color:rgba(244,244,244,1);
+}
+
+main #ChangementPage a:hover
+{
+    color:rgba(200,200,200,1);
+}
+
+
+
+
+
+
+
+
+
+/*---------------- FOOTER ------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    border-top:  5px solid rgba(133,188,47,1);
+color: rgba(244,244,244,1);
+    background-color: rgba(63,63,63,1);
+    margin-bottom: 50px;
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 300;
+}
+
+footer #Mention {
+    margin-left:  auto;
+	margin-right: auto;
+	width: 900px;
+	display: flex;
+    font-size: 15px;
+}
+
+footer #Mention p {
+	margin: 0;
+	padding: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 20px;
+}
+
+
+footer #Mention a {
+	border-left : 1px solid rgba(244,244,244,1);
+	padding: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+footer #Mention a:hover {
+	border-left : 1px solid rgba(244,244,244,1);
+	padding: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	color: rgba(200,200,200,1);
+}
+
+
+
+
+footer #Liens {
+    height: 100px;
+    margin-left: 120px;
+}
+
+footer img {
+    height: 50px;
+    padding: 30px;
+}
+

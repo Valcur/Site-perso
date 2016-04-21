@@ -1,0 +1,233 @@
+body
+{
+  width: 800px;
+  margin: 0 auto;
+  background-color: rgb(32, 35, 35);
+}
+
+
+
+/*------------- HEADER ---------------*/
+
+
+
+
+
+header
+{
+    font-family: 'Roboto' !important;
+   	font-style: normal;
+  	font-weight: 300;
+}
+
+#Titre{
+  background-color: rgb(180, 60, 60);
+  width: 2800px;
+  position: relative;
+  right: 1000px;
+  margin-bottom: 70px;
+}
+
+
+#PhotoCentrale {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+
+#Titre p{
+  margin: 0 auto;
+  width: 450px;
+  color: rgb(220, 220, 220);
+  padding-bottom: 20px;
+}
+
+#Square{
+  background-color: rgb(180, 60, 60);
+  height: 30px;
+  width: 30px;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  position: relative;
+  top: 15px;
+}
+
+ul{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.Separation{
+  color: rgb(84, 184, 184);
+}
+
+header a{
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  margin: 20px;
+  text-decoration:none;
+  position:relative;
+  padding:6px 0;
+}
+
+
+header a:after{
+  content:'';
+  width:0%;
+  margin-left:50%;
+  height:2px;
+  top: 27px;
+  left:0;
+  transition:all 0.3s;
+  position:absolute;
+}
+header a:hover:after {
+  background-color: rgb(221, 75, 57);
+  width:110%;
+  margin-left: -5%;
+}
+
+
+ 
+
+
+/*------------- MAIN ---------------*/
+
+
+
+
+
+
+
+main {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+main h1 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(184, 184, 184);
+    margin-top: 60px;
+}
+main h1:before, main h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: rgb(184, 184, 184);
+}
+main h1:before {
+    margin-left: -55%;
+    text-align: right;
+}
+main h1:after {
+    margin-left: 45px;
+    text-align: right;
+}
+
+
+main img{
+  margin: 10px;
+}
+
+main p{
+  color: rgb(184, 184, 184);
+  margin: 30px;
+  margin-top: 80px;
+  font-size: 15px;
+}
+
+main a{
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  margin: 20px;
+  text-decoration:none;
+  position:relative;
+  padding:6px 0;
+}
+
+
+main a:after{
+  content:'';
+  width:0%;
+  margin-left:50%;
+  height:2px;
+  top: 27px;
+  left:0;
+  transition:all 0.3s;
+  position:absolute;
+}
+main a:hover:after {
+  background-color: rgb(184, 184, 184);
+  width:110%;
+  margin-left: -5%;
+}
+
+
+.Legende{
+  margin-top: 0;
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+#Jeux{
+  display: flex;
+}
+
+#Jeux div{
+  width: 500px;
+}
+
+
+
+
+
+
+
+/*---------------- FOOTER ------------------*/
+
+
+
+
+
+footer{
+  height: 100px;
+  background-color: rgb(50, 50, 50);
+  width: 2800px;
+  position: relative;
+  right: 1000px;
+  font-family: 'Roboto' !important;
+  font-style: normal;
+  font-weight: 300;
+}
+
+footer p{
+  width: 300px;
+  margin: 0 auto;
+  color: rgb(184, 184, 184);
+  position: relative;
+  right: 160px;
+  top: 42px;
+}
+
+
+
+

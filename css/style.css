@@ -1,0 +1,128 @@
+body
+{
+	width: 1000px;
+	margin: 0 auto;
+  background-color: rgb(32, 35, 35);
+}
+
+
+
+/*------------- HEADER ---------------*/
+
+
+
+
+
+header
+{
+    font-family: 'Roboto' !important;
+   	font-style: normal;
+  	font-weight: 300;
+}
+
+ul{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(184, 184, 184);
+  margin: 20px;
+}
+
+.Separation{
+  color: rgb(84, 184, 184);
+}
+
+#PhotoCentrale {
+  height: 150px;
+}
+
+
+
+
+
+/*------------- MAIN ---------------*/
+
+
+
+.Projet{
+  height: 500px;
+}
+
+
+
+main {
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+main h1 {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(184, 184, 184);
+}
+main h1:before, main h1:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: rgb(184, 184, 184);
+}
+main h1:before {
+    margin-left: -55%;
+    text-align: right;
+}
+main h1:after {
+    margin-left: 55px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------- FOOTER ------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+
+    background-color: rgba(63,63,63,1);
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+footer img {
+
+
+    height: 50px;
+}
